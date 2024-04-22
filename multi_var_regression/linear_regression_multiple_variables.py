@@ -3,7 +3,7 @@ import numpy as np
 from sklearn import linear_model
 import math
 
-df = pd.read_csv("homeprices2.csv")
+df = pd.read_csv("homeprices.csv")
 
 # To fill the missing value, we calculate the median of the bedrooms column
 median_bedrooms = math.floor(df.bedrooms.median())
